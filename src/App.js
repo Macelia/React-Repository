@@ -6,6 +6,7 @@ import About from './Component/About'
 import Apropos from './Component/About';
 import Calculatrice from './Component/Calculatrice'
 import Technology from './Component/Technology';
+import Practice from './Component/Practice';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
      <Apropos name = {'Macelia'} age={56}/>
      <Calculatrice note1={17} note2={13}/>
      <Technology/>
+     <Practice message={ "Have you a Very Good Day"}/>
      
   
     </div>
