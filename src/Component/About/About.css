@@ -1,0 +1,17 @@
+.About-us{
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 0 10px red;
+}
+.About-us h1{
+    color: blue;
+}
+.About-us p{
+    color: aquamarine;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}

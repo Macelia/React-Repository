@@ -9,11 +9,12 @@ const Contact = () => {
   return (
     <div>
         <form className='form' action="">
-            <label >Votre Nom :</label>
-            <input type="text" required /><br /><br />
 
-            <label >Votre Prénom :</label>
-            <input type="text" required /><br /><br />
+            {/* <label >Votre Nom :</label> */}
+            <input type="text" placeholder='Votre Nom' required /><br /><br />
+
+            {/* <label >Votre Prénom :</label> */}
+            <input type="text" placeholder='Votre Prénom' required /><br /><br />
 
             <label >Votre Email :</label>
             <input type="email" required /><br /><br />
