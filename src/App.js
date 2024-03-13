@@ -9,6 +9,8 @@ import Technology from './Component/Technology';
 import Practice from './Component/Practice';
 import MyStateHook from './Component/MyStateHook/MyStateHook'
 import ExerciceState from  './Component/ExerciceState'
+import EffectComponent from './Component/EffectComponent'
+import Subscription from './Component/Subscription'
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
      <Practice message={ "Have you a Very Good Day"}/>
      <MyStateHook/>
      <ExerciceState/>
+     <EffectComponent/>
+     <Subscription/>
      
   
     </div>
